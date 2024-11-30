@@ -1,0 +1,38 @@
+{
+  "name": "miro-clone",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.0.10",
+    "@astrojs/tailwind": "^5.1.0",
+    "@liveblocks/client": "^1.9.7",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "astro": "^4.3.5",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "fabric": "^5.3.0",
+    "lucide-react": "^0.330.0",
+    "perfect-freehand": "^1.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7",
+    "zustand": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vite-pwa/astro": "^0.2.0",
+    "typescript": "^5.3.3"
+  }
+}

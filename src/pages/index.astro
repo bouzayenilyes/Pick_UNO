@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Canvas } from '../components/Canvas';
+import { Toolbar } from '../components/Toolbar';
+---
+
+<Layout title="Miro Clone - Collaborative Whiteboard">
+  <main>
+    <Canvas client:load />
+    <Toolbar client:load />
+  </main>
+</Layout>
